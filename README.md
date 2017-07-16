@@ -28,10 +28,15 @@ GX8010芯片是[杭州国芯科技股份有限公司](http://www.nationalchip.co
 
 随评估板提供的软件有：
 
-* 工具链（编译器、下载器）；
-* Linux Kernel 4.4.25
-* SenseFlow源码
-* 根文件系统（带有离线语音识别；
+* 工具链；
+* Linux Kernel 4.4.25；
+* [SenseFlow](https://github.com/NationalChip/SenseFlow)；
+* 根文件系统（带有离线语音识别的演示程序）；
+
+如需了解详情和订购评估板，欢迎联系我们：
+
+* 电话：+86-15906608826（季先生）
+* 电邮：jihw@nationalchip.com
 
 
 
