@@ -1,3 +1,10 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [Specification](chapter1.md)
+* Function Diagram
+* Hardware Layout
+* Expansion Port Interface
+* Development Environment
+  * Linux Environment
+
