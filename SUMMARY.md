@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Hardware Guide](hardware-guide.md)
-* Software
+* [Software Guide](software.md)
 
