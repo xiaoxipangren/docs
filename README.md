@@ -7,7 +7,8 @@ GX8010芯片是[杭州国芯科技股份有限公司](http://www.nationalchip.co
 * 集成了两颗用于语音识别的神经网络处理器（NPU），可运行[TensorFlow](https://www.tensorflow.org/)模型，实现激活词识别、语音识别、语音合成等深度神经网络算法；
 * 集成了音乐解码器，支持大部分音乐格式；
 * 集成了ARM Cortex A7处理器，带有Neon浮点处理单元，可以运行Linux操作系统；
-* 集成了1Gb DDR2内存单元；
+* 集成了1Gb DDR2内存；
+* 集成了SDIO、USB Host、USB Slave、SPI、I2C、I2S、BT1120等扩展接口；
 * 集成了动态功耗管理，运行功耗低于800mW，待机功耗低于50mW；
 
 为了帮助开发者了解和熟悉GX8010，特推出GX8010评估板，它具有如下的特点：
@@ -18,9 +19,19 @@ GX8010芯片是[杭州国芯科技股份有限公司](http://www.nationalchip.co
 * 板载802.11 b/g/n Wi-Fi模块（SDIO接口）和3dBi陶瓷天线，支持AirKiss；
 * USB Host接口，可通过USB Hub连接更多的USB设备；
 * USB Device接口，可实现UAC、UVC、MS、PTP等USB设备；
+* 8MB SPI NOR Flash（可替换成128MB SPI NAND Flash）；
+* TF卡插槽；
 * 2路USB UART调试接口，连接MCU和ARM；
 * 40脚扩展接口（兼容树莓派扩展板）；
 * 尺寸与名片相仿（85mm x 56mm，双层PCB）；
+* 支持USB供电；
+
+随评估板提供的软件有：
+
+* 工具链（编译器、下载器）；
+* Linux Kernel 4.4.25
+* SenseFlow源码
+* 根文件系统（带有离线语音识别；
 
 
 
