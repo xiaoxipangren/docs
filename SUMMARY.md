@@ -1,8 +1,9 @@
 # Summary
 
 * [Introduction](README.md)
-* [Function Diagram](function-diagram.md)
-* [Hardware Layout](hardware-layout.md)
+* [Hardware Guide](hardware-guide.md)
+  * [Function Diagram](hardware-guide/function-diagram.md)
+  * Hardware Layout
 * [Expansion Port Interface](expansion-port-interface.md)
 * Development Environment
   * Linux Environment
