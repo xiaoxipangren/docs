@@ -1,10 +1,9 @@
 # Summary
 
 * [Introduction](README.md)
-* [Specification](chapter1.md)
-* Function Diagram
-* Hardware Layout
-* Expansion Port Interface
+* [Function Diagram](function-diagram.md)
+* [Hardware Layout](hardware-layout.md)
+* [Expansion Port Interface](expansion-port-interface.md)
 * Development Environment
   * Linux Environment
 
