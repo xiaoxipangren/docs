@@ -19,9 +19,12 @@
    `sudo service tftpd-hpa restart`
 
 3. 安装 NFS服务器  
-   `sudo apt-get install nfs-kernel-server`配置NFS服务器  
-   `sudo vim /etc/exports`添加以下条目：  
-   `/opt/nfs *(rw,sync,no_all_squash,no_subtree_check,no_root_squash)`重新启TFTP服务器  
+   `sudo apt-get install nfs-kernel-server  
+   `配置NFS服务器  
+   `sudo vim /etc/exports  
+   `添加以下条目：  
+   `/opt/nfs *(rw,sync,no_all_squash,no_subtree_check,no_root_squash)  
+   `重新启TFTP服务器  
    `sudo service nfs-kernel-server restart`
 
 
