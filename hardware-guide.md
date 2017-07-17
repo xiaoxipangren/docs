@@ -1,6 +1,6 @@
-## Hardware Guide
+# 硬件说明书
 
-### 框架图
+## 框架图
 
 ![](/assets/diagram.png)
 
@@ -41,7 +41,7 @@
 | SCL1 | 5 | 6 | GND |
 | GPIO2 | 7 | 8 | UART1 TX |
 | GND | 9 | 10 | UART2 RX |
-| GPIO3 | 11 | 12 | GPIO2 |
+| GPIO3 | 11 | 12 | GPIO1 |
 | GPIO5 | 13 | 14 | GND |
 | GPIO8 | 15 | 16 | GPIO4 |
 | 3.3V | 17 | 18 | GPIO10 |

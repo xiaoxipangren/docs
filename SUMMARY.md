@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
-* [Hardware Guide](hardware-guide.md)
-* [Software Guide](software.md)
+* [简介](README.md)
+* [硬件说明书](hardware-guide.md)
+* [开发环境](software.md)
 

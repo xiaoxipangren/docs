@@ -1,6 +1,6 @@
-# GX8010 EVB User's Guide
+# GX8010 EVB 用户指南
 
-## Introduction
+## 简介
 
 GX8010芯片是[杭州国芯科技股份有限公司](http://www.nationalchip.com/)（股票代码836173）为智能音箱开发研制的高度集成的单芯片方案，它具有如下的特点：
 
