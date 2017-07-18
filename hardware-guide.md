@@ -2,11 +2,9 @@
 
 ## 开发板框架图
 
-GX8010 EVB开发板，有主板和麦克风板构成。主板上有主芯片／Flash／Wifi3个主要器件，然后有USB Master／Slave，两个UART，Audio in和out，以及其它扩展接口。麦克风板有一个7+1的PDM麦克风阵列构成，每个麦克风同时配置了2个彩色LED灯，同时麦克风板上设置了4个按键。
+GX8010 EVB开发板，由主板和麦克风板构成。主板上有主芯片／Flash／Wifi 3个主要器件，另外有USB Master／Slave，两个UART，Audio in和out，以及其它扩展接口。麦克风板由一个7+1的PDM麦克风阵列构成，每个麦克风同时配置了2个彩色LED灯，同时麦克风板上设置了4个按键。
 
 ![](/assets/gx8010_EVB_diagram.png)图：GX8010 开发板示意图
-
-
 
 ### 接口位置
 
