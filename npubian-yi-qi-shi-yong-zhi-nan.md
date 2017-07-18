@@ -25,8 +25,6 @@
 | INPUT\_OPS | OP\_NAME: \[shape\] | 设置输入的OP名字和SHAPE |
 | OUTPUT\_OPS | \[OUT\_OP\_NAMES, ... \] | 设置输出OP的名字列表 |
 
-
-
 #### 配置文件例子：
 
 **kws\_config.yaml**
@@ -51,15 +49,15 @@
 
 `INPUT_OPS:`
 
-`    Feats: [1, 1, 320]`
+`Feats: [1, 1, 320]`
 
-`    State_c0: [1, 96]`
+`State_c0: [1, 96]`
 
-`    State_h0: [1, 96]`
+`State_h0: [1, 96]`
 
-`    State_c1: [1, 96]`
+`State_c1: [1, 96]`
 
-`    State_h1: [1, 96]`
+`State_h1: [1, 96]`
 
 `OUTPUT_OPS: [Model/rnn_out, State_c0_out, State_h0_out, State_c1_out, State_h1_out]`
 
@@ -67,7 +65,7 @@
 
 完成完成配置选项后，运行：
 
-**`python gen_`**_**`model.py kws`**_**`config.yaml`**
+`python gen_model.py kwsconfig.yaml`
 
 gen\_model.py里的内容为：
 
@@ -79,7 +77,38 @@ gen\_model.py里的内容为：
 
 `if __name__ == '__main__':`
 
-`    npu_compiler.run(config)`
+`npu_compiler.run(config)`
+
+
+
+## 编译器的OP支持范围
+
+编译器通过对Tensorflow的OP解析来支持各种运算，目前支持的OP的列表如下：
+
+*  "Placeholder"
+*  "Const"
+*  "Identity"
+* "MatMul"
+*  "Add"
+* "Sub"
+*  "Mul"
+*  "Div"
+* "Softmax"
+* "Sigmoid"
+*  "Tanh"
+*  "Relu"
+*  "Shape"
+* "Fill"
+* "StridedSlice"
+* "Concat"
+* "BiasAdd"
+*  "Split"
+* "Pack"
+* "Conv2D"
+* "MaxPool"
+* "ConcatV2" 
+
+如遇到不支持的列表，请随时和我们联系！我们会尽快添加！
 
 
 
