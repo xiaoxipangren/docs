@@ -87,7 +87,9 @@ gen\_model.py里的内容为：
 >
 > `if __name__ == '__main__':`
 >
->         npu\_compiler.run\(config\)
+> ```
+>     npu_compiler.run(config)
+> ```
 
 
 
