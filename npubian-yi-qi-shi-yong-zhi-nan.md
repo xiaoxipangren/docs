@@ -69,9 +69,13 @@
 
 ## 编译
 
-完成完成配置选项后，运行：
+可以通过命令行直接编译：
 
-`python gen_model.py kwsconfig.yaml`
+`gxnpuc --config=config.yaml`
+
+或者通过python环境运行：
+
+`python gen_model.py config.yaml`
 
 gen\_model.py里的内容为：
 
