@@ -87,7 +87,9 @@ gen\_model.py里的内容为：
 >
 > `if __name__ == '__main__':`
 >
->     `npu_compiler.run(config)`
+>         npu\_compiler.run\(config\)
+
+
 
 ## 编译器的OP支持范围
 
