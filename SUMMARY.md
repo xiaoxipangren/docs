@@ -5,4 +5,5 @@
 * [构建开发环境](software.md)
 * [NPU开发指南](npukai-fa-zhi-nan.md)
 * [DSP开发指南](dspkai-fa-zhi-nan.md)
+* [NPU编译器使用指南](npubian-yi-qi-shi-yong-zhi-nan.md)
 
