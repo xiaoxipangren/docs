@@ -7,4 +7,5 @@
 * [NPU编译器安装与使用](npubian-yi-qi-shi-yong-zhi-nan.md)
 * [DSP工具安装](dspkai-fa-zhi-nan.md)
 * [DSP开发小例子](dspkai-fa-xiao-li-zi.md)
+* [开发环境上手教程](kai-fang-huan-jing-shang-shou-jiao-cheng.md)
 
