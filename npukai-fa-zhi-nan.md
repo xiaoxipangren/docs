@@ -10,7 +10,7 @@ NPU执行器提供了一套API，用于解析执行文件，加载模型，输�
 
 1. 在PC上生成Tensorflow的Graph\(pb文件\)和Variable\(ckpt文件\)后，并将两者合并为一个pb文件。
 
-2. 在PC上使用GXDNN的NPU编译器，将pb文件转化成能被NPU加载执行的JSON指令文件。
+2. 在PC上使用GXDNN的NPU编译器，将pb文件转化成能被NPU加载执行的指令文件。
 
 3. 芯片端调用NPU加载函数，把JSON文件传给加载器，建立模型。
 

@@ -21,12 +21,12 @@
 | :--- | :--- | :--- |
 | PB\_FILE |  | 包含CKPT的PB文件名和路径 |
 | OUTPUT\_FILE |  | NPU编译后输出文件名 |
-| SECURE | true / false | 是否对模型加密 |
-| NPU\_UNIT | NPU16 / NPU32 / NPU64 | 选择NPU型号对应的MAC数量 |
+| SECURE | true / false | 是否对模型加密（还未支持） |
+| NPU\_UNIT | NPU32 / NPU64 | 选择NPU型号对应的MAC数量（SNPU选32，主NPU选64） |
 | COMPRESS | true / false | 是否启动压缩模式 |
 | COMPRESS\_QUANT\_BITS | 4/5/6/7/8/9/10 | 量化压缩的最终bit数 |
 | FLOAT16 | true／false | 是否启用FLOAT16量化模式 |
-| FLOAT16\_EXP\_BITS | 3/4/5/6 | 选择FLOAT16指数位的Bit数 |
+| FLOAT16\_EXP\_BITS | 3/4/5/6 | 选择FLOAT16指数位的Bit数（默认5） |
 | OUTPUT\_TYPE | jason/raw | 目前请选择raw格式 |
 | INPUT\_OPS | OP\_NAME: \[shape\] | 设置输入的OP名字和SHAPE |
 | OUTPUT\_OPS | \[OUT\_OP\_NAMES, ... \] | 设置输出OP的名字列表 |
@@ -90,8 +90,6 @@ gen\_model.py里的内容为：
 > ```
 >     npu_compiler.run(config)
 > ```
-
-
 
 ## 编译器的OP支持范围
 
